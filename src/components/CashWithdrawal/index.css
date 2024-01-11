@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+
+.card {
+  background-color: #150b3e;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 600px;
+  width: 420px;
+  border-radius: 20px;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profile {
+  background-color: #c7d2fe;
+  height: 80px;
+  width: 80px;
+  color: #7c3aed;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.profile-name {
+  color: #d4d2db;
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.balance {
+  color: #585076;
+  font-weight: 600;
+  font-size: 20px;
+}
+.money {
+  color: #c4c4c4;
+}
+
+.rupees {
+  color: #585076;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.withdraw {
+  color: #c4c4c4;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
